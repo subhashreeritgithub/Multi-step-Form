@@ -1,0 +1,19 @@
+.progress-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    width: 22%;
+    text-align: center;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .step.active {
+    background: #4caf50;
+    color: white;
+  }
+  
